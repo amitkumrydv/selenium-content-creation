@@ -1,0 +1,86 @@
+# ================================================
+# === Java Build & Dependency Directories ========
+# ================================================
+target/
+build/
+out/
+
+# Exclude nested target/build in source directories
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ================================================
+# === Maven Wrapper ==============================
+# ================================================
+/mvnw
+/mvnw.cmd
+/.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ================================================
+# === Allure Reports =============================
+# ================================================
+allure-results/
+allure-report/
+
+# ================================================
+# === Test Output and Logs =======================
+# ================================================
+test-output/
+surefire-reports/
+failsafe-reports/
+logs/
+*.log
+
+# ================================================
+# === Screenshots (e.g. Selenium test failures) ==
+# ================================================
+screenshots/
+*.png
+
+# ================================================
+# === IDE Specific Files =========================
+# ================================================
+
+## IntelliJ IDEA ##
+.idea/
+*.iws
+*.iml
+*.ipr
+
+## Eclipse / Spring Tool Suite (STS) ##
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+## NetBeans ##
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## VS Code ##
+.vscode/
+
+# ================================================
+# === Static Analysis Tools ======================
+# ================================================
+/.eclipse-pmd
+
+# ================================================
+# === OS Generated Files =========================
+# ================================================
+.DS_Store
+Thumbs.db
+
+# ================================================
+# === Documentation Files ========================
+# ================================================
+HELP.md

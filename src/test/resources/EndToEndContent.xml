@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+
+
+
+	<test thread-count="5" name="End to End testing for content upload">
+		<classes>
+|			<class name="com.jforce.selenium.test.AdminTutorialProduction">
+			   <methods>
+				   <include name="verifySubjectListInDrodown"/>
+            	</methods>
+            	
+            <class name="com.jforce.selenium.test.EpubFileOpening">
+			   <methods>
+				<!--    <include name="epubFileLinkOpening"/> -->
+            	</methods>
+            	
+            	
+			</class>
+
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+
+	<listeners>
+		<listener class-name="com.jforce.selenium.listeners.TestListener" />
+	</listeners>
+
+	<test thread-count="5" name="Test all constent for the Table of content">
+		<classes>
+
+
+			<!-- AdminTutorialProduction Class -->
+		<!--	<class name="com.jforce.selenium.test.AdminTutorialProduction">
+				<methods>
+					<include name="verifyPlanningScheduleTableHeaders" />
+					<include name="verifyAdminApprovalTableHeaders" />
+					<include name="verifyUploadRawVideoTableHeaders" />
+					<include name="verifyAssignEditorTableHeaders" />
+					<include name="verifyAddVideoVersionTableHeaders" />
+					<include name="verifyFeedbackReceivedTableHeaders" />
+					<include name="verifyAllRecordHeader" />
+					<include name="verifyAsyncShootFieldName" />
+					<include name="verifyBookSlotsTableHeaders" />
+					<include name="verifyShootScheduledTableHeaders" />
+					<include name="verifyPendingReviewTableHeaders" />
+					<include name="verifyFacultyAllRecordTableHeaders" />
+					<include name="testUserFetchByUsername" />
+				</methods>
+			</class>
+
+			 FacultyReview Class 
+			<class name="com.jforce.selenium.test.FacultyReview">
+				<methods>
+					<include name="verifyBookSlotsTableHeaders" />
+					<include name="verifyShootScheduledTableHeaders" />
+					<include name="verifyPendingReviewTableHeaders" />
+					<include name="verifyFacultyAllRecordTableHeaders" />
+				</methods>
+			</class>-->
+
+			<!-- Editor Class -->
+		<!-- 	<class name="com.jforce.selenium.test.Editor">
+				<methods>
+					<include name="verifyAddVideoVersionTableHeaders" />
+					<include name="verifyFeedbackReceivedTableHeaders" />
+					<include name="verifyAllRecordHeader" />
+				</methods>
+			</class>
+ -->
+
+			<!-- EditorTeamLead Class -->
+		<!--	<class name="com.jforce.selenium.test.EditorTeamLead">
+				<methods>
+					<include name="verifyAssignEditorTableHeaders" />
+					<include name="verifyAddVideoVersionTableHeaders" />
+					<include name="verifyFeedbackReceivedTableHeaders" />
+					<include name="verifyAllRecordHeader" />
+				</methods>
+			</class>
+
+			 Cinematographer Class 
+			<class name="com.jforce.selenium.test.Cinematographer">
+				<methods>
+					<include name="verifyUploadRawVideoTableHeaders" />
+					<include name="verifyAllRecordHeader" />
+				</methods>
+			</class>
+
+			 UniversityAdmin Class 
+			<class name="com.jforce.selenium.test.UniversityAdmin">
+				<methods>
+					<include name="verifyPlanningScheduleTableHeaders" />
+					<include name="verifyAdminApprovalTableHeaders" />
+				</methods>
+			</class>
+					
+-->
+       <class name="com.jforce.selenium.test.ADDSubjectCodeTest">
+       
+            <methods>
+               <include name="compareAddSubjectConstant"></include>
+            
+            </methods>
+       
+          </class>
+
+
+		</classes>
+	</test>
+
+</suite>
