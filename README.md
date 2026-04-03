@@ -76,7 +76,6 @@ Build Scripts: The pom.xml (not shown) presumably configures test dependencies a
 Mermaid Diagram – High-Level Architecture:
 
 <img width="635" height="462" alt="image" src="https://github.com/user-attachments/assets/697720f3-a260-4af6-bdaf-033f107ee908" />
-<img width="635" height="462" alt="image" src="https://github.com/user-attachments/assets/697720f3-a260-4af6-bdaf-033f107ee908" />
 
 
 This diagram shows the Spring application (with UserService/UserRepository) and the test framework components. Tests invoke Page Objects which delegate to ElementActions (using the injected WebDriver), and listeners produce Allure reports.
